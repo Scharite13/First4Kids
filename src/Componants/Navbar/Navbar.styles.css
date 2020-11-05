@@ -28,15 +28,16 @@
 }
 
 .nav-list-item {
+  background-color: yellow;
+  border-radius: 50%;
   border: solid blue 2px;
   margin: 0.5rem 0.75rem;
   width: 7rem;
   cursor: pointer;
-  text-align: center;
 }
 
 .nav-list-item:hover {
-  background-color: #434a55;
+  background-color: yellow;
   border-radius: 4px;
   transition: all 0.2s ease-out;
 }
