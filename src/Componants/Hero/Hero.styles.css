@@ -1,0 +1,35 @@
+.hero-container {
+  display: flex;
+  background-image: url('../../Images/kids-on-playground.jpg');
+  position: relative;
+  width: auto;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-container {
+  background-color: yellow;
+  border-radius: 50%;
+  line-height: 1;
+  height: 135px;
+}
+
+.title {
+  font-family: 'Lakki Reddy', cursive;
+  /* font-family: 'Short Stack', cursive; */
+  text-align: center;
+  color: blue;
+  font-size: 100px;
+  padding-top: 10px;
+}
+
+.sub-title {
+  font-family: 'Lakki Reddy', cursive;
+  /* font-family: 'Short Stack', cursive; */
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+}

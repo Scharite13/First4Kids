@@ -19,15 +19,15 @@ class NavBar extends Component {
         <div className="parent">
             <div className='navbar-container'>
                <div className='logo'>
-                    <img src={logo}/>
+                    <img src={logo} alt="first for kids logo" width="93px" height="80px"/>
                </div> 
                <div className='menu-icon' onClick={this.handleClick}>
                <i className={ this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                </div>
                <ul className= {this.state.clicked ? 'nav-list active' : 'nav-list'}>
                    <li className='nav-list-item'><a href="#hero">Home</a></li>
-                   <li className='nav-list-item'><a href="#about-me">Tuition & Enrollment</a></li>
-                   <li className='nav-list-item'><a href="#resume">Voluntary Pre-K</a></li>
+                   <li className='nav-list-item'><a href="#about-me">Enrollment</a></li>
+                   <li className='nav-list-item'><a href="#resume">VPK</a></li>
                    <li className='nav-list-item'><a href="#projects">FAQ</a></li>
                    <li className='nav-list-item'><a href="#contact">Contact Us</a></li>
                </ul>

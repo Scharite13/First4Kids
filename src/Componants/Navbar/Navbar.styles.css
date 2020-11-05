@@ -2,11 +2,11 @@
   display: flex;
   background-color: yellowgreen;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .parent {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   margin: auto;
@@ -15,9 +15,8 @@
 
 .logo {
   display: flex;
-  padding: 20px;
+  padding: 5px;
   color: rgb(222, 219, 233);
-  font-weight: 700;
 }
 
 .nav-list {
