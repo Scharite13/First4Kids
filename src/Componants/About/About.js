@@ -6,7 +6,7 @@ function About(){
         <div className="about-container">
             <div className="about-description-outer">
                 <div className="about-description-inner">
-                    <p className="about-content">First For Kids is a licensed general member of the United
+                    <p className="about-content">&nbsp;&nbsp;&nbsp;&nbsp;First For Kids is a licensed general member of the United
                         Methodist Association of Preschools, earning the Gold Seal Accreditation.  The school has been serving the downtown
                         Bradenton community since 1989.  Safety is a top priority for us with our coded access door to our facility.
                         We are a nurturing environment where we strive to prepare children to succeed in school and 
