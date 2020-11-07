@@ -33,3 +33,9 @@
   color: blue;
   font-size: 50px;
 }
+
+@media screen and (max-width: 414px) {
+  .title-container {
+    height: 200px;
+  }
+}

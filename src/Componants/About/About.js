@@ -1,16 +1,30 @@
 import React from 'react';
 import './About.styles.css';
+import logo from "../../Images/LOGO_first-for-kids.png";
 
 function About(){
     return (
+
         <div className="about-container">
+            <div className="about-location">
+                <div className='logo'>
+                    <img src={logo} alt="first for kids logo" width="93px" height="80px"/>
+                </div> 
+                <div className="about-location-detail">
+                    <h2>First United Methodist Church</h2>
+                    <p>603 11th St. W. | Bradenton FL 34205</p>
+                    <p>941-748-0824</p>
+                    <a href="mailto: derekscharite@gmail.com">DerekScharite@gmail.com</a>
+                </div>
+
+            </div>
             <div className="about-description-outer">
                 <div className="about-description-inner">
                     <p className="about-content">&nbsp;&nbsp;&nbsp;&nbsp;First For Kids is a licensed general member of the United
                         Methodist Association of Preschools, earning the Gold Seal Accreditation.  The school has been serving the downtown
                         Bradenton community since 1989.  Safety is a top priority for us with our coded access door to our facility.
                         We are a nurturing environment where we strive to prepare children to succeed in school and 
-                        life.  We are dedicated to the offering learning oportunities for your child to grow intillectually,
+                        life.  We are dedicated to offering learning oportunities for your child to grow intillectually,
                         socially, emotionally, physically, and spiritually.  We also encourage parents to stop in for lunch or on their break
                         to see their child grow!
                     </p>
