@@ -35,10 +35,14 @@ function About(){
                 <div className="about-detail-outer">
                     <div className="about-detail-inner">
                         <p><span>Hours of Operation:</span> 7:30am - 6:00pm</p>
+                        
                         <p><span>Ages:</span> 6 weeks to pre-k</p>
+                        
                         <ul className='about-list'>
                             <li clssName="about-list-item">Free VPK offered</li>
+                            
                             <li clssName="about-list-item">VPK wrap-around care offered</li>
+                            
                             <li clssName="about-list-item">Full time care available for ages 2-5</li>
                         </ul>
                     </div>

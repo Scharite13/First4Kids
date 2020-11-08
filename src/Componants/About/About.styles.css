@@ -45,6 +45,7 @@
 
 .about-detail-outer {
   background-color: rgb(163, 108, 5);
+  margin: 0px 15px;
   padding: 10px;
   border-radius: 10px;
   width: 100%;
@@ -62,6 +63,10 @@
 
 ul {
   list-style: none;
+}
+
+span {
+  color: greenyellow;
 }
 
 @media screen and (max-width: 835px) {
