@@ -1,3 +1,9 @@
+Link {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar-container {
   font-family: 'Lakki Reddy', cursive;
   display: flex;
@@ -72,6 +78,11 @@ a:visited {
 
   .logo {
     padding-left: 20px;
+  }
+
+  .link {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
   }
 
   .nav-list {
