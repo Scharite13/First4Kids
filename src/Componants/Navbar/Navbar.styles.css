@@ -10,7 +10,7 @@ Link {
 
   background-color: rgb(166, 209, 79);
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .parent {
@@ -24,7 +24,7 @@ Link {
 
 .logo {
   display: flex;
-  padding: 5px;
+  padding: 5px 50px;
   color: blue;
 }
 
