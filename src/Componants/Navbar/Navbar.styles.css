@@ -40,6 +40,7 @@ Link {
   border-radius: 50%;
   border: solid blue 2px;
   margin: 0.5rem 0.75rem;
+  padding-top: 5px;
   width: 7rem;
   cursor: pointer;
 }

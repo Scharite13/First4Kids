@@ -1,3 +1,20 @@
 .about-page {
   margin-top: 105px;
 }
+
+.about-page {
+}
+
+.intro-container {
+  display: flex;
+  margin: 0 300px;
+  padding: 20px;
+}
+
+.text {
+  margin: 20px;
+}
+
+.lock {
+  font-size: 10rem;
+}
