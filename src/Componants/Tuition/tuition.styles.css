@@ -1,15 +1,22 @@
+.container {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+}
 .tuition-container {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
   border-radius: 10px;
-  width: 50%;
+
   margin: 20px;
 }
 
 .tuition {
   text-align: center;
-  font-size: 75px;
+  font-size: 50px;
 }
 
 .registration {
@@ -30,7 +37,7 @@
 }
 
 .hours {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -42,9 +49,57 @@
 }
 
 .hours-content {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   text-align: center;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.enrollment-container {
+  line-height: 1.5;
+  padding: 20px;
+}
+
+.registration-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.registration-intro {
+  text-indent: 30px;
+  margin-bottom: 20px;
+}
+
+.enrollment-check-list {
+  text-indent: 30px;
+}
+
+.check-list {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.paperwork {
+  text-indent: 30px;
+}
+
+.subsidies {
+  text-align: center;
+}
+
+.registration-paper-work {
+  margin-top: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: yellow;
+  width: 10rem;
 }
