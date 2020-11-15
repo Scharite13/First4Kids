@@ -64,8 +64,8 @@ const Tuition = () => (
 
                 </ul>
                 
-                <p className="paperwork"> Enrollment paperwork must be completed in full by the morning your child starts class.
-                    Immunization records and Student Health forms must be received by the school within 30 days of entry.
+                <p className="paperwork"> Enrollment paperwork must be completed in full by the morning your child starts class.  Immunization
+                 records and Student Health forms must be received by the school within 30 days of entry.
                 </p>
                 <p className="subsidies"> Subsidies are accepted from the Early Learning Coalition.</p>
 
