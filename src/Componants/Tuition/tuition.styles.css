@@ -1,0 +1,50 @@
+.tuition-container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 50%;
+  margin: 20px;
+}
+
+.tuition {
+  text-align: center;
+  font-size: 75px;
+}
+
+.registration {
+  text-align: center;
+  font-size: 25px;
+}
+
+.tuition-group {
+  margin: 10px;
+  text-align: center;
+}
+
+.ages {
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.hours {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.hours-title {
+  text-align: center;
+  width: 100%;
+}
+
+.hours-content {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}

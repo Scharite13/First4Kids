@@ -19,8 +19,38 @@ export const brochure = [
                 and outside.  Ther director's office has access to them for additional security.  Parents
                 are invited to come by anytime to visit.`
              
-    }
+    },
+   
 ]
 
+ export const tuition = {
+        
+        registration: '$80.00',
+        infant: '$210.00',
+        one: {
+                full: '$175.00',
+                threeDay: '$130.00'
+        }, 
+        two:{
+                full: '$165.00',
+                threeDay: '$120.00',
+                fiveMorning: '$120.00'
+        },
+        three:{
+                full: '$150.00',
+                threeDay: '$110.00',
+                fiveMorning:'$110.00'
+        },
+        four: {
+                full:'$140.00',
+                threeDay: '$100.00',
+                fiveMorning: '$100.00'
+        },
+        vpk: {
+                full: '$115.00', 
+                threeDay: null,
+                fiveMorning: 'Free'
+        }
+ }
 
-export default brochure;
+
