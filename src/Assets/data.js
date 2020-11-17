@@ -53,5 +53,21 @@ export const brochure = [
         }
  }
 
- 
+ export const vpk = {
+         explanation: `VPK is a program designed by the State of Florida in partnership with the Department 
+                        of Education.  It's goal is to prepare children for kindergarten.  We use a series of assessments
+                        that will drive individual instruction for each child. The children will be given an assessment during
+                        the first two weeks.  This will assess the child's level in math, oral language, print knowledge, and phonological
+                        awareness.  This allows teachers to focus on individual needs of the child.`, 
+        how: `We work on foundational learning skills such as fine motor skills, letter recognition, sound recognition,
+                and communication.  We do this through fun and engaging curricullum such as; The Beyond Centers, Circle Time, 
+                and The Creative Curriculum. This veriety of learning experiences enhances retention of information and creates a 
+                fun engaging learning environment for your child. `,
+        details: {
+                duration: '540 hours per school year and follows the public school calendar',
+                who: 'Eligible students have turned 4 years old by September 1st',
+                cost: 'State funding enables free enrollment for the 9am-12pm program',
+                extended: 'If attending extended 7:30am-9am or 12pm-6pm: $115 weekly charge applies'
+        }
+ }
 

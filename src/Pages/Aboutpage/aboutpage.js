@@ -3,6 +3,7 @@ import './aboutpage.styles.css';
 import { brochure } from '../../Assets/data';
 import biblePic from '../../Images/christian_preschool.png';
 import happyKids from '../../Images/happy_kids.jpg'
+import Footer from '../../Componants/Footer/Footer';
 
 const intro = brochure[0]
 
@@ -25,6 +26,7 @@ const AboutPage = () => (
             <i className="fas fa-lock"></i>
             </div>
         </div>
+        <Footer/>
         
         
     </div>
