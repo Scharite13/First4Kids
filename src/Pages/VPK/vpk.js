@@ -1,11 +1,12 @@
 import React from 'react';
 import Footer from '../../Componants/Footer/Footer';
-import './vpk.styles.css'
+import VpkComponent from '../../Componants/Vpk/vpk.component'
+import './vpk.styles.css';
 
 
 const VpK = () => (
     <div className="vpk-page">
-        <h1>VPK Page</h1>
+        <VpkComponent/>
         <Footer/>
     </div>
 )
