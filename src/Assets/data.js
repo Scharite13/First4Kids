@@ -67,7 +67,7 @@ export const brochure = [
                 duration: '540 hours per school year and follows the public school calendar',
                 who: 'Eligible students have turned 4 years old by September 1st',
                 cost: 'State funding enables free enrollment for the 9am-12pm program',
-                extended: 'If attending extended 7:30am-9am or 12pm-6pm: $115 weekly charge applies',
+                extended: 'If attending extended 7:30am-9am and/or 12pm-6pm: $115 weekly charge applies',
                 elcWebsite: 'https://familyservices.floridaearlylearning.com/'
         }
  }

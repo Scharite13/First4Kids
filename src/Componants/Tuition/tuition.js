@@ -77,7 +77,7 @@ const Tuition = () => (
                 <p>Monday-Friday: 7:30am - 6:00pm</p>
                 <p>Students must arrive by 9:00am</p>
             </div>
-            <h3 className="registration-paper-work"><a href={Registration} target='_blank'>Registration Paper Work</a></h3>
+            <h3 className="registration-paper-work"><a className="registration-link" href={Registration} target='_blank'>Registration Paper Work</a></h3>
             
         </div>
         

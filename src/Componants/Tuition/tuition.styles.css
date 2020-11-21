@@ -104,4 +104,12 @@
   border-radius: 10px;
   background-color: yellow;
   width: 10rem;
+  padding: 5px;
+}
+
+.registration-link:link,
+.registration-link:visited {
+  text-decoration: none;
+  color: blue;
+  text-align: center;
 }

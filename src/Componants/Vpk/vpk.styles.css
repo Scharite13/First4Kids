@@ -1,0 +1,33 @@
+.elc-site:link,
+.elc-site:visited {
+  text-decoration: none;
+  color: blue;
+}
+
+.vpk-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.vpk-title {
+  text-align: center;
+  width: 100%;
+}
+
+.what-is-vpk {
+  width: 50%;
+  padding: 20px 5px 20px 100px;
+  line-height: 1.5;
+}
+
+.how-it-works {
+  width: 50%;
+  padding: 20px 100px 20px 5px;
+  line-height: 1.5;
+}
+
+.details {
+  text-align: center;
+  width: 100%;
+  line-height: 2;
+}
