@@ -1,0 +1,21 @@
+.faq {
+  padding: 25px;
+}
+
+.faq-container {
+  line-height: 1.5;
+  padding: 25px;
+  width: 50%;
+}
+
+.faq-title {
+  text-align: center;
+}
+
+.question {
+  color: teal;
+}
+
+.answer {
+  font-weight: 600;
+}

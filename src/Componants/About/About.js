@@ -14,7 +14,7 @@ function About(){
                     <h2>First United Methodist Church</h2>
                     <p>603 11th St. W. | Bradenton FL 34205</p>
                     <p>941-748-0824</p>
-                    <a href="mailto: derekscharite@gmail.com">Email@gmail.com</a>
+                    <a href="mailto: derekscharite@gmail.com">learn@firstforkids.net</a>
                 </div>
 
             </div>

@@ -1,11 +1,12 @@
 import React from 'react';
 import Footer from '../../Componants/Footer/Footer';
-import './faq.styles.css'
+import './faq.styles.css';
+import FaqComponent from '../../Componants/FAQ/faq-component';
 
 
 const FaQ = () => (
     <div className="faq-page">
-        <h1>FAQ Page</h1>
+        <FaqComponent/>
         <Footer/>
     </div>
 )

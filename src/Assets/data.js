@@ -72,3 +72,54 @@ export const brochure = [
         }
  }
 
+export const faq = [
+       { question: "What ages do you accept?",
+         answer: "We have children from 6 weeks through 5 year old."
+        },
+        { question: "What training does the staff have?",
+         answer: "Several of the teachers have Early Childhood Certificates.  All teachers have the mandated 45 hour training.  Every teacher must complete an additional 10 hours of training per year.  Staff also must have first aid and cpr certificates."
+        },
+        { question: "Are all of your staff screened to work with children?",
+         answer: "Yes, all the staff must have a local law enforcement check, FBI and FDLE checks."
+        },
+        { question: "How do you incorporate Christianity into your program?",
+         answer: "We have Chapel every Friday morning and learn basic bible stories, sometimes focusing on character development and good morals or God’s love.  We pray in class before meals and during circle time."
+        },
+        { question: "Is snack provided?",
+         answer: "We provide a snack for the two-five year olds.  We ask that infant and one year old parents provide a snack for them since food allergies might still be surfacing."
+        },
+        { question: "Do we offer lunch?",
+         answer: "No, we serve a morning snack and an afternoon snack.  Twice a week we offer a fundraiser lunch from Chick-fil-A and pizza."
+        },
+        { question: "Do the children take field trips?",
+         answer: "Yes, the three-five year olds take field trips about once a month during the normal school year.  Some of the places we have visited are Mote Marine, G.T. Bray, Sarasota Car Museum, and Bounce U."
+        },
+        { question: "What is the drop off and pick up policy?",
+         answer: "The students need to be dropped off between 7:30 and 9.  Students must be picked up by 6pm.  There is a late fee charged after 6.  If you are going to be late to school or picking up from school, you must call the center."
+        },
+        { question: "What kind of security does the center have?",
+         answer: "We have a coded access door.  Once parents enroll their children, they will receive the code to the door so they can enter as they need to."
+        },
+        { question: "Can I pick my child up early?",
+         answer: "Yes, just let us know the time you need your child to be ready."
+        },
+        { question: "Can I drop my child off late?",
+         answer: "Children need to be dropped off by 9 am to get the full benefits of the program and so the classroom isn’t disrupted needlessly."
+        },
+        { question: "Are there any extra costs besides tuition?",
+         answer: "We have an annual registration fee.  The three –five year olds sometimes go on a field trip that you might be asked to help cover the cost, but no child would be prevented from going because of the cost."
+        },
+        { question: "When is a payment late?",
+         answer: "All payments must be made before Tuesday of that week."
+        },
+        { question: "Do we get a vacation week?",
+         answer: "We offer a vacation week but the parents have to do volunteer hours to accumulate them."
+        },
+        { question: "What holidays are you closed?",
+         answer: "We are closed on most major holidays.  Please see your parent handbook for exact dates.  The VPK class will follow the public school calendar."
+        },
+        { question: "Do you accept subsidies?",
+         answer: "Yes,  we accept ELC subsidies, both county and state funding.  We also accept the NACCRRA, the national guard funding."
+        },
+
+]
