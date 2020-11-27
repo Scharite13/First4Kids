@@ -15,7 +15,7 @@ function Footer() {
                 </div>
                 <div className="contact">
                     <h3 className="f-title"><i class="fas fa-phone-volume"></i>Contact Us</h3>
-                    <a href="mailto: derekscharite@gmail.com">learn@firstforkids.net</a>
+                    <a href="mailto: learn@firstforkids.net">learn@firstforkids.net</a>
                     <p>941-748-0824</p>
                 </div>
             </div>
