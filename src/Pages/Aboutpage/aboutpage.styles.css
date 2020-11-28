@@ -9,8 +9,9 @@
 
 .intro-container {
   display: flex;
-  margin: 0 300px;
+  margin: 0 150px;
   padding: 20px;
+  align-items: center;
 }
 
 .text {
@@ -19,4 +20,36 @@
 
 .lock {
   font-size: 10rem;
+}
+
+@media screen and (max-width: 1050px) {
+  .intro-container {
+    margin: 0 150px;
+  }
+
+  .about-image {
+    height: 125px;
+    width: 202.5px;
+  }
+
+  .lock {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 864px) {
+  .intro-container {
+    margin: 0 20px;
+  }
+
+  .about-page {
+    margin-top: 120px;
+  }
+}
+
+@media screen and (max-width: 564px) {
+  .intro-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
