@@ -71,7 +71,7 @@ Link {
   text-align: center;
 }
 
-@media screen and (max-width: 835px) {
+@media screen and (max-width: 1000px) {
   .navbar-container {
     position: relative;
     justify-content: space-between;
@@ -138,5 +138,9 @@ Link {
 
   .fa-times {
     color: blue;
+  }
+
+  .navbar-container {
+    height: 100px;
   }
 }
