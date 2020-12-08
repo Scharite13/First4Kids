@@ -55,7 +55,7 @@ const Tuition = () => (
                     classes fill up faster than others.  Names can always be placed on a waiting list for future openings.  
                 </p>
                 <ul className="enrollment-check-list">
-                    <p>If there is a spot open and after touring the facility you feel as though this is the best school for 
+                    <p>If there is a spot open and after touring the facility and you feel as though this is the best school for 
                         your child:  
                     </p>
                     <li className="check-list">You pay the $80 registration fee to hold the spot.</li>

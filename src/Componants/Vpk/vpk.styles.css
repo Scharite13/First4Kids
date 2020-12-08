@@ -4,6 +4,11 @@
   color: blue;
 }
 
+.elc-cert {
+  font-size: 20px;
+  margin: 20px 20px 90px 20px;
+}
+
 .vpk-container {
   display: flex;
   flex-wrap: wrap;
