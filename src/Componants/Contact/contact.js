@@ -29,16 +29,16 @@ class Contact extends Component {
     };
 
     resetForm(){
-        this.setState({name: '', email: '', phone: '', message: ''})
+        this.setState({fname: '', lname: '', email: '', phone: '', message: ''})
     }
 
   
 
     handleFNameChange(event){
-        this.setState({name: event.target.value})
+        this.setState({fname: event.target.value})
     }
     handleLNameChange(event){
-        this.setState({name: event.target.value})
+        this.setState({lname: event.target.value})
     }
     handleEmailChange(event){
         this.setState({email: event.target.value})
@@ -61,11 +61,11 @@ class Contact extends Component {
             <ul className="wrapper">
                 <li className="form-row">
                     {/* <label className="fname" htmlFor="fname">First Name:</label> */}
-                    <input type="text" id="fname" name="first_name" onChange={this.handleFNameChange}  value={this.state.name} placeholder="First Name"/>
+                    <input type="text" id="fname" name="first_name" onChange={this.handleFNameChange}  value={this.state.fname} placeholder="First Name"/>
                 </li>
                 <li className="form-row">
                     {/* <label className="lname" htmlFor="lname">Last Name:</label> */}
-                    <input type="text" id="lname" name="last_name" onChange={this.handleLNameChange}  value={this.state.name} placeholder="Last Name"/>
+                    <input type="text" id="lname" name="last_name" onChange={this.handleLNameChange}  value={this.state.lname} placeholder="Last Name"/>
                 </li>
                 <li className="form-row">
                     {/* <label className="email" htmlFor="email">E-mail:</label> */}
