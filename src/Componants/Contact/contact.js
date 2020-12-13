@@ -55,26 +55,34 @@ class Contact extends Component {
         return (
     <div className="outer-div">
     <div className="contact-form">
-        <h1>Contact Us</h1>
+        <h1 className="contact-title">Contact Us</h1>
         <form  id="contact-form"  action="https://formkeep.com/f/957f83998e7c"
             accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
-
-            <label className="fname" htmlFor="fname">First Name:</label><br></br>
-            <input type="text" id="fname" name="first_name" onChange={this.handleFNameChange}  value={this.state.name} placeholder="First Name"/><br></br>
-            
-            <label className="lname" htmlFor="lname">Last Name:</label><br></br>
-            <input type="text" id="lname" name="last_name" onChange={this.handleLNameChange}  value={this.state.name} placeholder="Last Name"/><br></br>
-            
-            <label className="email" htmlFor="email">E-mail:</label><br></br>
-            <input type="email" id="email" name="email" onChange={this.handleEmailChange} value={this.state.email}  placeholder="Email@email.com"/><br></br>
-            
-            <label className="phone" htmlFor="phone">Phone:</label><br></br>
-            <input type="tel" id="phone" onChange={this.handlePhoneChange} value={this.state.phone} name="phone_number" placeholder="555-123-4567"/><br></br>
-            
-            <label className="message" htmlFor="message">Message:</label><br></br>
-            <textarea name="message" rows="4" cols="35" id="comment" onChange={this.handleMessageChange} value={this.state.message}></textarea><br></br>
-           
-            <button type="submit" value='submit'>Submit</button>
+            <ul className="wrapper">
+                <li className="form-row">
+                    {/* <label className="fname" htmlFor="fname">First Name:</label> */}
+                    <input type="text" id="fname" name="first_name" onChange={this.handleFNameChange}  value={this.state.name} placeholder="First Name"/>
+                </li>
+                <li className="form-row">
+                    {/* <label className="lname" htmlFor="lname">Last Name:</label> */}
+                    <input type="text" id="lname" name="last_name" onChange={this.handleLNameChange}  value={this.state.name} placeholder="Last Name"/>
+                </li>
+                <li className="form-row">
+                    {/* <label className="email" htmlFor="email">E-mail:</label> */}
+                    <input type="email" id="email" name="email" onChange={this.handleEmailChange} value={this.state.email}  placeholder="Email"/>
+                </li>
+                <li className="form-row">
+                    {/* <label className="phone" htmlFor="phone">Phone:</label> */}
+                    <input type="tel" id="phone" onChange={this.handlePhoneChange} value={this.state.phone} name="phone_number" placeholder="Phone Number"/>
+                </li>
+                <li className="form-row">
+                    {/* <label className="message" htmlFor="message">Message:</label> */}
+                    <textarea name="message" rows="4" cols="35" id="comment" onChange={this.handleMessageChange} value={this.state.message} placeholder="Type message here."></textarea>
+                </li>
+                <li className="form-row">
+                    <button className="contact-button" type="submit" value='submit'>Submit</button>
+                </li>
+            </ul>
         </form>
     </div>
     </div>
