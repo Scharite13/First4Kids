@@ -53,6 +53,7 @@ class Contact extends Component {
 
     render(){
         return (
+    <div className="outer-div">
     <div className="contact-form">
         <h1>Contact Us</h1>
         <form  id="contact-form"  action="https://formkeep.com/f/957f83998e7c"
@@ -75,6 +76,7 @@ class Contact extends Component {
            
             <button type="submit" value='submit'>Submit</button>
         </form>
+    </div>
     </div>
         )}}
 
